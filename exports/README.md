@@ -9,3 +9,7 @@ Of 402 input records, 97 National Storage AU stores yielded 290 partial public l
 Network-affected records span 129 brand labels. See `network_affected_by_brand_2026-10-20.csv` for all counts.
 
 ZIP SHA256: `d429aead28f8833878793374fa984c70e3f9876db53d0ce063da8d04102ea9df`
+
+## Run collection on Windows
+
+Download `run_scraper_windows_2026-10-20.zip`, extract it completely and double-click `RUN_SCRAPER_WINDOWS.cmd`. See `RUN_ON_WINDOWS.md` for instructions and measured limitations. The package retries the 256 affected records using your computer’s configured connection, while preserving prior collected listings. No additional live prices have been collected in the blocked cloud environment.
